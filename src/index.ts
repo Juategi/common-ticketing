@@ -1,0 +1,21 @@
+class Color {
+    private name: string;
+    private hexCode: string;
+
+    constructor(name: string, hexCode: string) {
+        this.name = name;
+        this.hexCode = hexCode;
+    }
+
+    getName(): string {
+        return this.name;
+    }
+
+    getHexCode(): string {
+        return this.hexCode;
+    }
+}
+
+const redColor = new Color("Red", "#FF0000");
+
+export { Color, redColor };
