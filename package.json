@@ -1,6 +1,6 @@
 {
   "name": "@ticketingjuant/common",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "del build/*",
+    "clean": "del ./build/*",
     "pub": "git add . && git commit -m \"publish\" && git push && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
