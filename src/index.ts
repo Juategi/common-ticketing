@@ -16,7 +16,7 @@ class Color {
     }
 }
 
-const redColor = new Color("Regfgdsdd", "#FF0000");
+const redColor = new Color("Regf", "#FF0000");
 const blueColor = new Color("Blue", "#0000FF");
 
 
