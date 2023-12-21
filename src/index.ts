@@ -17,5 +17,7 @@ class Color {
 }
 
 const redColor = new Color("Red", "#FF0000");
+const blueColor = new Color("Blue", "#0000FF");
+
 
 export { Color, redColor };
