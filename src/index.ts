@@ -1,23 +1,10 @@
-class Color {
-    private name: string;
-    private hexCode: string;
-
-    constructor(name: string, hexCode: string) {
-        this.name = name;
-        this.hexCode = hexCode;
-    }
-
-    getName(): string {
-        return this.name;
-    }
-
-    getHexCode(): string {
-        return this.hexCode;
-    }
-}
-
-const redColor = new Color("Regf", "#FF0000");
-const blueColor = new Color("Blue", "#0000FF");
-
-
-export { Color, redColor };
+export * from './errors/bad-request-error';
+export * from './errors/custom-error';
+export * from './errors/database-connection-error';
+export * from './errors/not-authorized-error';
+export * from './errors/not-found-error';
+export * from './errors/request-validation-error';
+export * from './middlewares/current-user';
+export * from './middlewares/error-handler';
+export * from './middlewares/require-auth';
+export * from './middlewares/validate-request';
